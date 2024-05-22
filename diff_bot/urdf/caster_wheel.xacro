@@ -17,7 +17,7 @@
             </geometry>
         </collision>
 
-        <xacro:inertial_sphere mass="${caster_wheel_mass}" radius="${caster_wheel_radius}">
+        <xacro:inertial_sphere mass="${8*caster_wheel_mass}" radius="${2*caster_wheel_radius}">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
         </xacro:inertial_sphere>
     </link>
